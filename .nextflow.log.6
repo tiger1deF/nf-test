@@ -1,0 +1,104 @@
+Oct-14 18:00:47.663 [main] DEBUG nextflow.cli.Launcher - $> nextflow run . -profile production
+Oct-14 18:00:47.777 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.4
+Oct-14 18:00:47.799 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/root/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3-patch1,nf-tower@1.5.12,nf-wave@0.8.4
+Oct-14 18:00:47.810 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Oct-14 18:00:47.812 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Oct-14 18:00:47.818 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Oct-14 18:00:47.835 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Oct-14 18:00:48.682 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/defrondevillec/nextflow/nextflow.config
+Oct-14 18:00:48.683 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/defrondevillec/nextflow/nextflow.config
+Oct-14 18:00:48.693 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `production`
+Oct-14 18:00:48.755 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [production]
+Oct-14 18:00:48.782 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Oct-14 18:00:48.797 [main] INFO  nextflow.cli.CmdRun - Launching `./main.nf` [scruffy_hodgkin] DSL2 - revision: 0771b35ecf
+Oct-14 18:00:48.798 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Oct-14 18:00:48.798 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Oct-14 18:00:48.808 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /root/.nextflow/secrets/store.json
+Oct-14 18:00:48.812 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@43d9f1a2] - activable => nextflow.secret.LocalSecretsProvider@43d9f1a2
+Oct-14 18:00:48.898 [main] DEBUG nextflow.Session - Session UUID: 9070dca4-f05e-4d0c-a74b-b1692fca4f57
+Oct-14 18:00:48.899 [main] DEBUG nextflow.Session - Run name: scruffy_hodgkin
+Oct-14 18:00:48.900 [main] DEBUG nextflow.Session - Executor pool size: 12
+Oct-14 18:00:48.918 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Oct-14 18:00:48.962 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.4 build 5881
+  Created: 25-09-2023 15:34 UTC (11:34 EDT)
+  System: Linux 5.15.90.1-microsoft-standard-WSL2
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 11.0.20.1+1-post-Ubuntu-0ubuntu120.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 13455@DESKTOP-9O0EJ2B [127.0.1.1]
+  CPUs: 12 - Mem: 7.6 GB (4.3 GB) - Swap: 2 GB (2 GB)
+Oct-14 18:00:48.992 [main] DEBUG nextflow.Session - Work-dir: /home/defrondevillec/nextflow/work [ext2/ext3]
+Oct-14 18:00:48.992 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/defrondevillec/nextflow/bin
+Oct-14 18:00:49.004 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Oct-14 18:00:49.016 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Oct-14 18:00:49.048 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Oct-14 18:00:49.059 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Oct-14 18:00:49.171 [main] DEBUG nextflow.Session - Session start
+Oct-14 18:00:49.333 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-14 18:00:49.625 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:docker_core` matches labels `docker_core` for process with name extractProteins
+Oct-14 18:00:49.653 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-14 18:00:49.653 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-14 18:00:49.661 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Oct-14 18:00:49.666 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=7.6 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Oct-14 18:00:49.799 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: processProtein, extractProteins
+Oct-14 18:00:49.800 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+Oct-14 18:00:49.800 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > extractProteins
+Oct-14 18:00:49.801 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Oct-14 18:00:49.801 [main] DEBUG nextflow.Session - Session await
+Oct-14 18:00:49.945 [Actor Thread 3] DEBUG nextflow.util.CacheHelper - Unable to get file attributes file: /home/defrondevillec/nextflow/output -- Cause: java.nio.file.NoSuchFileException: /home/defrondevillec/nextflow/output
+Oct-14 18:00:50.077 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-14 18:00:50.080 [Task submitter] INFO  nextflow.Session - [af/aa91be] Submitted process > extractProteins
+Oct-14 18:00:51.221 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: extractProteins; status: COMPLETED; exit: 127; error: -; workDir: /home/defrondevillec/nextflow/work/af/aa91be7463e89a472f16baa59fb477]
+Oct-14 18:00:51.226 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=extractProteins; work-dir=/home/defrondevillec/nextflow/work/af/aa91be7463e89a472f16baa59fb477
+  error [nextflow.exception.ProcessFailedException]: Process `extractProteins` terminated with an error exit status (127)
+Oct-14 18:00:51.238 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'extractProteins'
+
+Caused by:
+  Process `extractProteins` terminated with an error exit status (127)
+
+Command executed:
+
+  #!/usr/bin/env python
+      
+      import polars as pl
+      import os
+      from proteinTools import PT as p
+  
+      files = os.listdir(data)
+      protein_data = []
+      for file in files:
+          data = pl.read_csv(file)
+          proteins = data['Proteins'].to_list()
+          protein_data += proteins
+  
+      lengths = []
+      for protein in protein_data:
+          prot = p.Protein(protein)
+          prot.download(output)
+          lengths.append(len(prot))
+  
+      with open('output/lengths.txt', 'r') as f:
+          for length in lengths:
+              f.write(length + '
+  ')
+
+Command exit status:
+  127
+
+Command output:
+  (empty)
+
+Command error:
+  /usr/bin/env: 'python': No such file or directory
+
+Work dir:
+  /home/defrondevillec/nextflow/work/af/aa91be7463e89a472f16baa59fb477
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+Oct-14 18:00:51.248 [main] DEBUG nextflow.Session - Session await > all processes finished
+Oct-14 18:00:51.249 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `extractProteins` terminated with an error exit status (127)
+Oct-14 18:00:51.272 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-14 18:00:51.283 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=1.1s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=1 GB; ]
+Oct-14 18:00:51.460 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Oct-14 18:00:51.473 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

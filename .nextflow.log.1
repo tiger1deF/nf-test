@@ -1,0 +1,79 @@
+Oct-14 18:53:18.272 [main] DEBUG nextflow.cli.Launcher - $> nextflow run . -profile production
+Oct-14 18:53:18.644 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.4
+Oct-14 18:53:18.696 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/root/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3-patch1,nf-tower@1.5.12,nf-wave@0.8.4
+Oct-14 18:53:18.715 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Oct-14 18:53:18.716 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Oct-14 18:53:18.724 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Oct-14 18:53:18.742 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Oct-14 18:53:20.398 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/defrondevillec/nextflow/nextflow.config
+Oct-14 18:53:20.399 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/defrondevillec/nextflow/nextflow.config
+Oct-14 18:53:20.415 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `production`
+Oct-14 18:53:20.510 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [production]
+Oct-14 18:53:20.549 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Oct-14 18:53:20.576 [main] INFO  nextflow.cli.CmdRun - Launching `./main.nf` [irreverent_austin] DSL2 - revision: fedc98891f
+Oct-14 18:53:20.577 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Oct-14 18:53:20.577 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Oct-14 18:53:20.597 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /root/.nextflow/secrets/store.json
+Oct-14 18:53:20.605 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@43d9f1a2] - activable => nextflow.secret.LocalSecretsProvider@43d9f1a2
+Oct-14 18:53:20.754 [main] DEBUG nextflow.Session - Session UUID: 88d29b5c-bfcb-43cf-bca5-08b622109023
+Oct-14 18:53:20.754 [main] DEBUG nextflow.Session - Run name: irreverent_austin
+Oct-14 18:53:20.755 [main] DEBUG nextflow.Session - Executor pool size: 12
+Oct-14 18:53:20.943 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Oct-14 18:53:20.983 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.4 build 5881
+  Created: 25-09-2023 15:34 UTC (11:34 EDT)
+  System: Linux 5.15.90.1-microsoft-standard-WSL2
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 11.0.20.1+1-post-Ubuntu-0ubuntu120.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 19631@DESKTOP-9O0EJ2B [127.0.1.1]
+  CPUs: 12 - Mem: 7.6 GB (4.2 GB) - Swap: 2 GB (2 GB)
+Oct-14 18:53:21.012 [main] DEBUG nextflow.Session - Work-dir: /home/defrondevillec/nextflow/work [ext2/ext3]
+Oct-14 18:53:21.012 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/defrondevillec/nextflow/bin
+Oct-14 18:53:21.043 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Oct-14 18:53:21.058 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Oct-14 18:53:21.124 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Oct-14 18:53:21.141 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Oct-14 18:53:21.278 [main] DEBUG nextflow.Session - Session start
+Oct-14 18:53:21.736 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-14 18:53:22.523 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:docker_core` matches labels `docker_core` for process with name processProtein
+Oct-14 18:53:22.547 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-14 18:53:22.547 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-14 18:53:22.556 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Oct-14 18:53:22.562 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=7.6 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Oct-14 18:53:22.738 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: processProtein, extractProteins
+Oct-14 18:53:22.738 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+Oct-14 18:53:22.739 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > processProtein
+Oct-14 18:53:22.740 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Oct-14 18:53:22.741 [main] DEBUG nextflow.Session - Session await
+Oct-14 18:53:23.167 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-14 18:53:23.174 [Task submitter] INFO  nextflow.Session - [09/310833] Submitted process > processProtein
+Oct-14 18:53:26.250 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: processProtein; status: COMPLETED; exit: 0; error: -; workDir: /home/defrondevillec/nextflow/work/09/310833c5b0775d01fca6bc3f691a0a]
+Oct-14 18:53:26.262 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Process `processProtein` is unable to find [UnixPath]: `/home/defrondevillec/nextflow/work/09/310833c5b0775d01fca6bc3f691a0a/proteins_channel` (pattern: `proteins_channel`)
+Oct-14 18:53:26.266 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=processProtein; work-dir=/home/defrondevillec/nextflow/work/09/310833c5b0775d01fca6bc3f691a0a
+  error [nextflow.exception.MissingFileException]: Missing output file(s) `proteins_channel` expected by process `processProtein`
+Oct-14 18:53:26.291 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'processProtein'
+
+Caused by:
+  Missing output file(s) `proteins_channel` expected by process `processProtein`
+
+Command executed:
+
+  cat data/*.csv > proteins.txt
+
+Command exit status:
+  0
+
+Command output:
+  (empty)
+
+Work dir:
+  /home/defrondevillec/nextflow/work/09/310833c5b0775d01fca6bc3f691a0a
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+Oct-14 18:53:26.304 [main] DEBUG nextflow.Session - Session await > all processes finished
+Oct-14 18:53:26.304 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Missing output file(s) `proteins_channel` expected by process `processProtein`
+Oct-14 18:53:26.343 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-14 18:53:26.358 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=3s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=1 GB; ]
+Oct-14 18:53:26.514 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Oct-14 18:53:26.543 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
