@@ -1,0 +1,2 @@
+docker: Error response from daemon: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "/home/defrondevillec/miniconda3/bin/python3": stat /home/defrondevillec/miniconda3/bin/python3: no such file or directory: unknown.
+time="2023-10-14T18:15:07-04:00" level=error msg="error waiting for container: "

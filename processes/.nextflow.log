@@ -1,0 +1,17 @@
+Oct-14 18:27:41.877 [main] DEBUG nextflow.cli.Launcher - $> nextflow run . -profile production
+Oct-14 18:27:41.980 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.4
+Oct-14 18:27:42.029 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/defrondevillec/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3-patch1,nf-tower@1.5.12,nf-wave@0.8.4
+Oct-14 18:27:42.051 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Oct-14 18:27:42.053 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Oct-14 18:27:42.060 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Oct-14 18:27:42.084 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Oct-14 18:27:42.138 [main] DEBUG nextflow.scm.AssetManager - Project manifest does not exist: ./nextflow.config (No such file or directory)
+Oct-14 18:27:42.156 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Missing project main script: ./main.nf
+	at nextflow.scm.AssetManager.getMainScriptFile(AssetManager.groovy:411)
+	at nextflow.scm.AssetManager.getMainScriptFile(AssetManager.groovy)
+	at nextflow.cli.CmdRun.getScriptFile0(CmdRun.groovy:505)
+	at nextflow.cli.CmdRun.getScriptFile(CmdRun.groovy:458)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:314)
+	at nextflow.cli.Launcher.run(Launcher.groovy:494)
+	at nextflow.cli.Launcher.main(Launcher.groovy:665)

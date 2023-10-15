@@ -1,0 +1,69 @@
+2023-10-14 03:04:51	-	awesome_ampere	-	833ba5a47218aaa42ff3b30c4c73bf5f	62b92a45-506f-4b49-9c93-82f4f8ca30e3	nextflow run .
+2023-10-14 03:06:26	-	ecstatic_lorenz	-	76a800f851888219154fbc9df136e4bb	221436c9-b8a8-47d7-9486-03bd63e40839	nextflow run .
+2023-10-14 03:06:37	-	kickass_jepsen	-	76a800f851888219154fbc9df136e4bb	c2441298-62c3-4d6a-af33-af3cc7330967	nextflow run . --profile production
+2023-10-14 03:19:30	-	drunk_meucci	-	76a800f851888219154fbc9df136e4bb	bc00601a-af0f-4748-844c-1a9ef84012dd	nextflow run . --profile production
+2023-10-14 03:20:12	-	kickass_swanson	-	76a800f851888219154fbc9df136e4bb	90d0f54c-9870-4d9a-b40f-aa7b427d0e20	nextflow run . --profile production --config nextflow.config
+2023-10-14 04:09:35	-	hungry_sanger	-	76a800f851888219154fbc9df136e4bb	db79cf54-5ec0-49d7-b57e-60b4635dc593	nextflow run . --profile production --config nextflow.config
+2023-10-14 04:09:58	-	amazing_bardeen	-	76a800f851888219154fbc9df136e4bb	72ff90a9-46e5-493a-a259-16327c6c8d7f	nextflow run . --profile production --config nextflow.config
+2023-10-14 04:27:59	-	cheeky_payne	-	56b61811d397b708fa827e9695fbf2ea	0751b716-fdb7-49af-8dd9-5b61351d3702	nextflow run . --profile production --config nextflow.config
+2023-10-14 04:28:39	-	golden_blackwell	-	56b61811d397b708fa827e9695fbf2ea	fa84ae1b-5198-4def-8aa9-7104d0e0de12	nextflow run . --profile production --config nextflow.config
+2023-10-14 04:31:55	-	jolly_solvay	-	ec7056cdfb1dfdda3f3a5c35d112c802	2919a48c-8fd1-41c3-a719-2bfaf254e463	nextflow run . --profile production --config nextflow.config
+2023-10-14 05:39:55	-	mighty_hamilton	-	ec7056cdfb1dfdda3f3a5c35d112c802	b608d373-5583-4d51-b147-0da437ea4509	nextflow run . --profile production --config nextflow.config
+2023-10-14 05:46:21	-	boring_brattain	-	ec7056cdfb1dfdda3f3a5c35d112c802	a4521c12-9f63-4545-ac01-320bcb4863e4	nextflow run . --profile production --config nextflow.config
+2023-10-14 05:48:00	-	naughty_leibniz	-	ec7056cdfb1dfdda3f3a5c35d112c802	6fa2b946-70f3-4c4a-9380-3e0b61689215	nextflow run . -profile production --config nextflow.config
+2023-10-14 05:48:33	-	drunk_blackwell	-	77806f09f3be1f415874123b56cf6341	79b388cc-4105-484c-bb98-004bdac93f4e	nextflow run . -profile production --config nextflow.config
+2023-10-14 05:49:03	-	kickass_leakey	-	3e8598e36ea1dbda3b66add3b0d4295a	d132c893-0a24-4d96-ae83-afb3eb36f8b3	nextflow run . -profile production --config nextflow.config
+2023-10-14 05:50:15	1.7s	ecstatic_cori	ERR	415cb404771f3fd95d1aaa6b52c5a079	c2f06c5e-13cc-454d-a6fb-41bbff4732d9	nextflow run . -profile production --config nextflow.config
+2023-10-14 05:54:42	2s	jolly_albattani	ERR	415cb404771f3fd95d1aaa6b52c5a079	59640358-ce1f-446e-bcf6-7401580274a2	nextflow run . -profile production --config nextflow.config
+2023-10-14 05:56:36	2s	goofy_fermat	ERR	415cb404771f3fd95d1aaa6b52c5a079	e4686533-a48d-453d-9efd-696212273e0a	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:01:31	-	agitated_lagrange	-	05bb429412158898970f024362d132c9	3a75a50b-f2fe-4b0a-85c3-98fd921c87ed	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:03:44	-	sick_joliot	-	4f5d5eb08d5883fcdad1ba58e5f25cd3	9371ed8a-ba56-4a78-a074-2074afdd7b1c	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:03:59	-	small_heyrovsky	-	3b82b8cba61cb8126bc3fbdebc009410	624ae20a-2cdb-4f68-978f-256e464566a7	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:04:28	-	lethal_tesla	-	3b82b8cba61cb8126bc3fbdebc009410	4bd6ea35-8662-4ee2-9b08-069b483dd901	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:14:46	-	elated_poincare	-	3b82b8cba61cb8126bc3fbdebc009410	7ddd1256-81bc-409e-96b1-7c75d8713041	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:16:19	-	intergalactic_gates	-	3b82b8cba61cb8126bc3fbdebc009410	08749685-92b6-4442-a0cd-8b14bf981fed	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:17:25	-	infallible_turing	-	3b82b8cba61cb8126bc3fbdebc009410	1ddbdc25-fcaf-4022-9233-0b8ce8ce5e56	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:18:42	-	high_hoover	-	3b82b8cba61cb8126bc3fbdebc009410	13c49777-b610-4d61-b5c2-727a45650017	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:26:00	-	pedantic_mayer	-	3b82b8cba61cb8126bc3fbdebc009410	437f37a0-f592-4872-803c-193e0b9952c8	nextflow run . -profile production --config nextflow.config
+2023-10-14 06:26:33	-	drunk_volta	-	3b82b8cba61cb8126bc3fbdebc009410	b97eb37d-8756-4803-8ae7-f88b7b4cb3f4	nextflow run . -profile production --config nextflow.config
+2023-10-14 17:45:48	-	big_perlman	-	0771b35ecf992184cbf325844bc87521	fec5f77d-f26b-4ce7-983a-b10d6a33feba	nextflow run .
+2023-10-14 17:47:10	1.7s	stoic_payne	ERR	0771b35ecf992184cbf325844bc87521	0cc621f3-1335-499f-b11d-d1952329dc8d	nextflow run .
+2023-10-14 17:47:26	3.3s	curious_gutenberg	ERR	0771b35ecf992184cbf325844bc87521	a76d9fd1-d47d-4179-b710-2e1fd7776a31	nextflow run . -profile production
+2023-10-14 17:48:36	3s	crazy_aryabhata	ERR	0771b35ecf992184cbf325844bc87521	8b16a952-be46-43f4-b812-3084c96ac54a	nextflow run . -profile production
+2023-10-14 17:49:02	3s	determined_ptolemy	ERR	0771b35ecf992184cbf325844bc87521	7f279ead-d6f6-439e-b3b5-0c04c4c72adb	nextflow run . -profile production
+2023-10-14 17:50:06	3.4s	determined_becquerel	ERR	0771b35ecf992184cbf325844bc87521	bd1306af-7b9e-471c-a997-75ed1d279442	nextflow run . -profile production
+2023-10-14 17:52:39	2.4s	gigantic_brahmagupta	ERR	0771b35ecf992184cbf325844bc87521	f4c63307-6aab-45bf-b387-a04a3aa0c883	nextflow run . -profile production
+2023-10-14 17:53:02	3.2s	soggy_boyd	ERR	0771b35ecf992184cbf325844bc87521	85b27f3e-6f00-4bd9-96d7-4d4573fb471b	nextflow run . -profile production
+2023-10-14 17:58:09	2.4s	clever_kirch	ERR	0771b35ecf992184cbf325844bc87521	1bd3f26e-8c07-456f-b92a-a68ad2b46652	nextflow run . -profile production
+2023-10-14 17:58:27	3.9s	special_lumiere	ERR	0771b35ecf992184cbf325844bc87521	1bf545e7-5612-4138-9478-a8b1b51828ea	nextflow run . -profile production
+2023-10-14 18:00:20	3s	drunk_wiles	ERR	0771b35ecf992184cbf325844bc87521	9a53ec16-2fb8-4f50-8589-7ac87e566a08	nextflow run . -profile production
+2023-10-14 18:00:48	3.5s	scruffy_hodgkin	ERR	0771b35ecf992184cbf325844bc87521	9070dca4-f05e-4d0c-a74b-b1692fca4f57	nextflow run . -profile production
+2023-10-14 18:03:43	2.9s	ecstatic_lamarck	ERR	0771b35ecf992184cbf325844bc87521	176de18c-efbf-4e63-bd1c-e583ffe27a6f	nextflow run . -profile production
+2023-10-14 18:04:00	2.8s	small_swartz	ERR	0771b35ecf992184cbf325844bc87521	f549b4af-edb1-4393-a49e-3d46871e6f12	nextflow run . -profile production
+2023-10-14 18:06:38	4.3s	wise_pasteur	ERR	0771b35ecf992184cbf325844bc87521	f4e7e13f-afdd-4149-b908-24368c81e579	nextflow run . -profile production
+2023-10-14 18:08:09	4.5s	naughty_ampere	ERR	0771b35ecf992184cbf325844bc87521	81d2cdda-decd-4366-8e5d-3bc4f2668993	nextflow run . -profile production
+2023-10-14 18:08:50	5.6s	elated_church	ERR	0771b35ecf992184cbf325844bc87521	a5e45b28-28f9-4ec4-ad1e-e7747e8b79ec	nextflow run . -profile production
+2023-10-14 18:13:51	7.5s	prickly_planck	ERR	0771b35ecf992184cbf325844bc87521	4c5b6cd4-393c-4044-b909-6504d761c24b	nextflow run . -profile production
+2023-10-14 18:15:02	6.3s	mad_miescher	ERR	0771b35ecf992184cbf325844bc87521	80ed3949-cdae-496a-a182-cd99bf44da5f	nextflow run . -profile production
+2023-10-14 18:16:35	6.7s	lethal_avogadro	ERR	0771b35ecf992184cbf325844bc87521	7eee3ff9-6a2d-482a-ab1c-ff7d9e328ba8	nextflow run . -profile production
+2023-10-14 18:20:19	-	exotic_waddington	-	34a8a75b7ebbbb5ab44ee85aa4c20c56	dfc150cb-7527-43d9-8317-ba58232936a0	nextflow run . -profile production
+2023-10-14 18:21:08	-	lonely_morse	-	34a8a75b7ebbbb5ab44ee85aa4c20c56	defc5882-ef26-4f02-a7bf-af183b28a0aa	nextflow run . -profile production
+2023-10-14 18:24:03	7.4s	angry_ramanujan	ERR	4a654cd4689a4846a858a6a5b14b5bb2	079a4a26-d190-4271-aa4d-d8005948a6f2	nextflow run . -profile production
+2023-10-14 18:25:43	7.5s	tender_meninsky	ERR	4a654cd4689a4846a858a6a5b14b5bb2	12fa815c-dda4-4ead-87d5-c302eda4db88	nextflow run . -profile production
+2023-10-14 18:29:01	-	high_hamilton	-	4a654cd4689a4846a858a6a5b14b5bb2	dc80d3fe-1b8d-44cc-b1e7-0227d76388ee	nextflow run . -profile production
+2023-10-14 18:31:19	8.1s	kickass_faraday	ERR	4a654cd4689a4846a858a6a5b14b5bb2	4042cf85-dda0-4c3d-b7f0-6e34e4852d83	nextflow run . -profile production
+2023-10-14 18:33:12	-	irreverent_albattani	-	4a654cd4689a4846a858a6a5b14b5bb2	dcca75c1-ebea-4eff-a1c0-59df89374d80	nextflow run . -profile production
+2023-10-14 18:33:57	-	pedantic_neumann	-	4a654cd4689a4846a858a6a5b14b5bb2	6da413a0-7c94-4762-bf0a-bf98a2d6d4bc	nextflow run . -profile production
+2023-10-14 18:35:09	1.6s	sad_watson	ERR	4a654cd4689a4846a858a6a5b14b5bb2	b76a83c1-a0c9-44f9-ac66-cebf355ae39b	nextflow run . -profile production
+2023-10-14 18:40:14	7s	fervent_bartik	ERR	4a654cd4689a4846a858a6a5b14b5bb2	0b9318f3-d492-463a-96b5-fcf5d9920fb1	nextflow run . -profile production
+2023-10-14 18:41:47	-	compassionate_khorana	-	4a654cd4689a4846a858a6a5b14b5bb2	b95c0fb4-33ba-459b-88ec-eb3d329047f7	nextflow run . -profile production
+2023-10-14 18:43:00	7.5s	pedantic_carlsson	ERR	4a654cd4689a4846a858a6a5b14b5bb2	f6646600-d61c-4f9b-a5e9-08a55a94c8ed	nextflow run . -profile production
+2023-10-14 18:45:26	-	angry_kilby	-	4a654cd4689a4846a858a6a5b14b5bb2	3782c804-b17a-4660-b2fc-cf822b1c94b9	nextflow run . -profile production
+2023-10-14 18:46:03	-	condescending_magritte	-	4a654cd4689a4846a858a6a5b14b5bb2	9e0642c3-e44a-421e-8f46-b1d5f6071680	nextflow run . -profile production
+2023-10-14 18:46:34	5.2s	mad_archimedes	ERR	4a654cd4689a4846a858a6a5b14b5bb2	eea76ba8-fdd3-4cac-aa9f-47973218498d	nextflow run . -profile production
+2023-10-14 18:48:04	2.2s	desperate_fourier	ERR	4a654cd4689a4846a858a6a5b14b5bb2	4eeced97-b644-466c-9628-8fee3eff6520	nextflow run . -profile production
+2023-10-14 18:48:42	6.4s	deadly_faraday	ERR	4a654cd4689a4846a858a6a5b14b5bb2	f30ed729-df68-4c1d-b7c9-2d257eff2e57	nextflow run . -profile production
+2023-10-14 18:50:17	4.9s	voluminous_kalam	ERR	4a654cd4689a4846a858a6a5b14b5bb2	ec5487d2-5127-4b89-a43a-296b0bc5cb98	nextflow run . -profile production
+2023-10-14 18:51:16	5s	elated_mercator	ERR	4a654cd4689a4846a858a6a5b14b5bb2	bd2c5792-17d4-4dcb-96db-4affb6841018	nextflow run . -profile production
+2023-10-14 18:53:20	6.5s	irreverent_austin	ERR	fedc98891fcee4a5ccdd80e1437ab2a7	88d29b5c-bfcb-43cf-bca5-08b622109023	nextflow run . -profile production
+2023-10-14 18:53:54	3.9s	cranky_yalow	OK	fedc98891fcee4a5ccdd80e1437ab2a7	e66bf3cf-ec71-4d56-baa5-cab621f28d70	nextflow run . -profile production
